@@ -1,6 +1,6 @@
-%% Kinematic bicycle vehicle model with open loop steering rate input
-% Simulation and animation of a kinematic bicycle vehicle model making left
-% and right turns.
+%% Kinematic bicycle model - Open loop steering rate
+% Simulation and animation of a kinematic bicycle model with open loop 
+% steering rate making left and right turns.
 %
 %% 
 
