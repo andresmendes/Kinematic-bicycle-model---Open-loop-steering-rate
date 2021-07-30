@@ -201,10 +201,12 @@ function animation(data)
     er = [XT YT]+err;
 
     figure
-    set(gcf,'Position',[270   140   640     360  ])
+    % set(gcf,'Position',[50 50 1280 720]) % YouTube: 720p
+    % set(gcf,'Position',[50 50 854 480]) % YouTube: 480p
+    set(gcf,'Position',[50 50 640 640]) % Social
     
     % Create and open video writer object
-    v = VideoWriter('Kinematic_bicycle_open.avi');
+    v = VideoWriter('Kinematic_bicycle_open.mp4','MPEG-4');
     v.Quality = 100;
     open(v);
     
